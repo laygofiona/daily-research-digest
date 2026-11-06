@@ -1,4 +1,4 @@
-# Doomscrolling Antidote
+# Daily research digest
 
 A daily research digest pipeline. Give it the arXiv categories and keywords
 you care about, and every day it will:
