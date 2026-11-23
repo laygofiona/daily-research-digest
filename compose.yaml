@@ -5,8 +5,8 @@ services:
       - '8000:8000'
     volumes:
       - .:/code
+      # boto3 reads AWS credentials/config from ~/.aws (container runs as root)
+      - ./.aws:/root/.aws:ro
     env_file:
       - .env
-      - .aws/config
-      - .aws/credentials
 
