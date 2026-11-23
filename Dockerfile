@@ -20,4 +20,5 @@ COPY . .
 EXPOSE 8000
 
 # Run supercronic pointing to the created crontab
-CMD ["supercronic", "/code/crontab"]
+# CMD ["supercronic", "/code/crontab"]
+CMD ["python", "-m", "pipeline.main"]
