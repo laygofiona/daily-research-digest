@@ -176,7 +176,7 @@ python -m pipeline.main
 ### With Docker
 
 ```bash
-docker compose up --build
+docker compose build && docker compose up -d
 ```
 
 This builds the image, installs dependencies, and runs the pipeline daily
